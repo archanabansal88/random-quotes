@@ -1,0 +1,59 @@
+html,
+body,
+.root {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: green;
+}
+.quote-content {
+	min-height: 130px;
+	width: 40%;
+	padding: 20px 20px 65px 20px;
+	border-radius: 5px;
+	background-color: white;
+	position: relative;
+}
+
+.button {
+	padding: 10px;
+	background-color: green;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+.quotes {
+}
+
+.quoteText {
+	padding: 20px 15px 20px 10px;
+	font-size: 20px;
+	color: green;
+	text-align: center;
+}
+
+.author {
+	font-size: 15px;
+	color: green;
+	text-align: right;
+}
+
+.button-container {
+}
+
+.footer {
+	color: white;
+}
